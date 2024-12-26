@@ -10,6 +10,7 @@ const setupAndStartServer  = async () => {
     //create the express object or instance
     const app = express();
 
+    //Middlewares
     app.use(bodyParser.json());
     app.use(bodyParser.urlencoded({extended : true}));
 
