@@ -19,7 +19,6 @@
     "dialect": "mysql"
   }
 }
-
 ```
 
 - Once you've added your db config as listed above, go to src folder from your terminal and execute 
