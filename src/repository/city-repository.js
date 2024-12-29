@@ -16,12 +16,12 @@ class CityRepository {
     }
 
 
-    async deleteCity({ cityid }) {
+    async deleteCity({ cityId }) {
         
         try{
             await City.destroy({
                 where: {
-                    id: cityid //The where keyword is a sequelize syntax
+                    id: cityId //The where keyword is a sequelize syntax
                 }
             });
             return true;
@@ -35,7 +35,7 @@ class CityRepository {
         try {
             const city = await City.update(data, {
                 where : {
-                    id : cityid
+                    id : cityId
                 }
             });
             return city;
