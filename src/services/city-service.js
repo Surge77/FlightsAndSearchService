@@ -1,3 +1,5 @@
+//The service folder will contain all the core business logic
+
 const { CityRepository } = require('../repository/index');
 
 class CityService {

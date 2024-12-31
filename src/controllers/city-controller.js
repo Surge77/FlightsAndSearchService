@@ -1,3 +1,5 @@
+//The only role of controller is to get the request and pass it to backend and then after send the response back to frontend
+
 const { CityService } = require('../services/index');
 
 const cityService = new CityService();

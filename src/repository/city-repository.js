@@ -1,3 +1,5 @@
+//Repository role is to interact with the database
+
 const { Op } = require('sequelize');
 
 const { City } = require('../models/index');
